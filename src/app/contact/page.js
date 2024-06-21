@@ -11,7 +11,7 @@ export default function Family() {
           <Link href="/contact">Contact</Link>
       </nav>
       <div className="flex top-1 grid px-6 py-20 place-items-center font-bold">
-        <h1 className="text-3xl font-semibold text-center">Family Tree</h1>
+        <h1 className="text-3xl font-semibold text-center">Contact</h1>
       </div>
     </main>
   );
