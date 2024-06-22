@@ -12,7 +12,38 @@ export default function Home() {
           <Link href="/contact">Contact</Link>
       </nav>
       <div className="flex top-1 grid px-6 py-20 place-items-center font-bold">
-        <h1 className="text-3xl font-semibold text-center">Diachara Molla Bari</h1>
+        <div className="border border-gray-300 rounded-lg p-2">
+          <h1 className="text-3xl font-semibold text-center">Diachara Molla Bari</h1>
+        </div>
+        <div className="flex grid py-10 item-left lg:grid-cols-2 gap-10">
+          <div className="border border-gray-300 rounded-lg p-2">
+            <Image
+              src="/mollabaridighi.jpg"
+              alt="Molla Bari"
+              width={500}
+              height={500}
+            />
+            <p>
+            Dighi: <br/>
+            The signature of the Diachara Molla bari is its large Dighi.<br/>
+            In 1952 the Dighi was excavated by hiring some labour at <br/>
+            a cost of 800btd.
+            </p>
+          </div>
+          <div className="border border-gray-300 rounded-lg p-2">
+            <Image
+              src="/mollabarikachari.png"
+              alt="Molla Bari"
+              width={500}
+              height={500}
+            />
+            <p>
+            Kachari: <br/>
+            This is the very recent version of the Kachari ghor. <br/>
+            It is used for praying namaj and also teaching Quran.
+            </p>
+          </div>
+        </div>
       </div>
     </main>
   );
