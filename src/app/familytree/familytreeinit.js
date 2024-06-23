@@ -2,15 +2,16 @@ import React from 'react';
 import ReactFlow, { Controls, Background, MarkerType, getMarkerEnd} from 'reactflow';
 import 'reactflow/dist/style.css';
 import persons from './persons.json';
-import relations from './relations.json';
 
 const nodes = persons;
-const initedges = relations;
-const edges = initedges.map((item) => ({
-  ...item,
+const edges = persons.map((item) => ({
+  id: item.data["father id"]+"-"+item.id,
+  source: item.data["father id"],
+  target: item.id,
+  type: "step",
   markerEnd: {
     type: MarkerType.ArrowClosed,
-    ...item.markerEnd,
+    width: 20, height: 20
   },
 }));
 

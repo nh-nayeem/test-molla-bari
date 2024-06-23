@@ -4,48 +4,83 @@
     "position": {
         "x": 550, "y": 10 
     },
-    "data": { "label": "Jahir Uddin Patwary" }
+    "data": { "label": "Jahir Uddin Patwary", "father id": "1" }
   },
   {
     "id": "2",
     "position": {
         "x": 200, "y": 100 
       },
-    "data": { "label": "Kokai Molla" }
+    "data": { "label": "Kokai Molla", "father id": "1" }
   },
   {
     "id": "3",
     "position": {
         "x": 900, "y": 100 
       },
-    "data": { "label": "Amanuddin Molla" }
+    "data": { "label": "Amanuddin Molla", "father id": "1" }
   },
   {
     "id": "4",
     "position": {
         "x": 10, "y": 200 
       },
-    "data": { "label": "Mohammod Ali Molla" }
+    "data": { "label": "Mohammod Ali Molla", "father id": "2" }
   },
   {
     "id": "5",
     "position": {
         "x": 180, "y": 200 
       },
-    "data": { "label": "Ahammad Ali Molla" }
+    "data": { "label": "Ahammad Ali Molla", "father id": "2" }
   },
   {
     "id": "6",
     "position": {
         "x": 350, "y": 200 
       },
-    "data": { "label": "Ronjon Ali Molla" }
+    "data": { "label": "Ronjon Ali Molla", "father id": "2" }
   }, 
   {
     "id": "7",
     "position": {
         "x": 520, "y": 200 
       },
-    "data": { "label": "Fozor Ali Molla" }
+    "data": { "label": "Fozor Ali Molla", "father id": "2" }
+  },
+  {
+    "id": "8",
+    "position": {
+        "x": 690, "y": 200 
+      },
+    "data": { "label": "Ohed Ali Molla", "father id": "3" }
+  },
+  {
+    "id": "9",
+    "position": {
+        "x": 860, "y": 200 
+      },
+    "data": { "label": "Hador Ali Molla", "father id": "3" }
+  },
+  {
+    "id": "10",
+    "position": {
+        "x": 1030, "y": 200 
+      },
+    "data": { "label": "Sadok Ali Molla", "father id": "3" }
+  },
+  {
+    "id": "11",
+    "position": {
+        "x": 1200, "y": 200 
+      },
+    "data": { "label": "Soiyok Ali Molla", "father id": "3" }
+  },
+  {
+    "id": "12",
+    "position": {
+        "x": 10, "y": 300 
+      },
+    "data": { "label": "Yunus Munchi", "father id": "4" }
   }
 ]
