@@ -1,0 +1,56 @@
+[
+    {
+      "id": "1-2",
+      "source": "1",
+      "target": "2",
+      "type": "step",
+      "markerEnd": {
+         "width": 20, "height": 20
+      }
+    },
+    {
+      "id": "1-3",
+      "source": "1",
+      "target": "3",
+      "type": "step",
+      "markerEnd": {
+         "width": 20, "height": 20
+      }
+    },
+    {
+      "id": "2-4",
+      "source": "2",
+      "target": "4",
+      "type": "step",
+      "markerEnd": {
+         "width": 20, "height": 20
+        }
+    },
+    {
+      "id": "2-5",
+      "source": "2",
+      "target": "5",
+      "type": "step",
+      "markerEnd": {         
+         "width": 20, "height": 20
+      }
+    }, 
+    {
+      "id": "2-6",
+      "source": "2",
+      "target": "6",
+      "type": "step",   
+      "markerEnd": {
+         "width": 20, "height": 20
+      }
+    },
+    {
+      "id": "2-7",
+      "source": "2",
+      "target": "7",
+      "type": "step",
+      "markerEnd": {
+         "width": 20, "height": 20
+      }
+    }
+]
