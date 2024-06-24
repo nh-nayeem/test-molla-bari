@@ -4,83 +4,83 @@
     "position": {
         "x": 550, "y": 10 
     },
-    "data": { "label": "Jahir Uddin Patwary", "father id": "1" }
+    "data": { "label": "জহির উদ্দিন পাটোয়ারি", "father id": "1" }
   },
   {
     "id": "2",
     "position": {
         "x": 200, "y": 100 
       },
-    "data": { "label": "Kokai Molla", "father id": "1" }
+    "data": { "label": "কোকাই মোল্লা", "father id": "1" }
   },
   {
     "id": "3",
     "position": {
         "x": 900, "y": 100 
       },
-    "data": { "label": "Amanuddin Molla", "father id": "1" }
+    "data": { "label": "আমানুদ্দিন মোল্লা", "father id": "1" }
   },
   {
     "id": "4",
     "position": {
         "x": 10, "y": 200 
       },
-    "data": { "label": "Mohammod Ali Molla", "father id": "2" }
+    "data": { "label": "মোহাম্মদ আলী মোল্লা", "father id": "2" }
   },
   {
     "id": "5",
     "position": {
         "x": 180, "y": 200 
       },
-    "data": { "label": "Ahammad Ali Molla", "father id": "2" }
+    "data": { "label": "আহমদ আলী মোল্লা", "father id": "2" }
   },
   {
     "id": "6",
     "position": {
         "x": 350, "y": 200 
       },
-    "data": { "label": "Ronjon Ali Molla", "father id": "2" }
+    "data": { "label": "রঞ্জন আলী মোল্লা", "father id": "2" }
   }, 
   {
     "id": "7",
     "position": {
         "x": 520, "y": 200 
       },
-    "data": { "label": "Fozor Ali Molla", "father id": "2" }
+    "data": { "label": "ফজর আলী মোল্লা", "father id": "2" }
   },
   {
     "id": "8",
     "position": {
         "x": 690, "y": 200 
       },
-    "data": { "label": "Ohed Ali Molla", "father id": "3" }
+    "data": { "label": "ওহীদ আলী মোল্লা", "father id": "3" }
   },
   {
     "id": "9",
     "position": {
         "x": 860, "y": 200 
       },
-    "data": { "label": "Hador Ali Molla", "father id": "3" }
+    "data": { "label": "হাদর আলী মোল্লা", "father id": "3" }
   },
   {
     "id": "10",
     "position": {
         "x": 1030, "y": 200 
       },
-    "data": { "label": "Sadok Ali Molla", "father id": "3" }
+    "data": { "label": "সাদক আলী মোল্লা", "father id": "3" }
   },
   {
     "id": "11",
     "position": {
         "x": 1200, "y": 200 
       },
-    "data": { "label": "Soiyok Ali Molla", "father id": "3" }
+    "data": { "label": "সৈয়দ আলী মোল্লা", "father id": "3" }
   },
   {
     "id": "12",
     "position": {
         "x": 10, "y": 300 
       },
-    "data": { "label": "Yunus Munchi", "father id": "4" }
+  "data": { "label": "ইউনুস মুন্সি", "father id": "4" }
   }
 ]
