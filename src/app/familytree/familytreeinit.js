@@ -3,7 +3,11 @@ import ReactFlow, { Controls, Background, MarkerType, getMarkerEnd} from 'reactf
 import 'reactflow/dist/style.css';
 import persons from './persons.json';
 
-const nodes = persons;
+const nodes = persons.map((item) => ({
+  id: item.id,
+  position: item.position,
+  data: item.data
+}));
 const edges = persons.map((item) => ({
   id: item.data["father id"]+"-"+item.id,
   source: item.data["father id"],
