@@ -1,6 +1,7 @@
 import React from 'react';
-import ReactFlow, { Controls, Background, MarkerType, getMarkerEnd} from 'reactflow';
+import ReactFlow, { Controls, Background, MarkerType} from 'reactflow';
 import 'reactflow/dist/style.css';
+// import './custom-style.css';
 import persons from './persons.json';
 
 const nodes = persons.map((item) => ({
@@ -20,6 +21,7 @@ const edges = persons.map((item) => ({
 }));
 
 function FamilyTree() {
+    
     return (
       <div style={{ height: '100%' }}>
       <ReactFlow nodes={nodes} edges={edges}>
@@ -28,6 +30,6 @@ function FamilyTree() {
       </ReactFlow>
       </div>
     );
-  }
+  };
   
   export default FamilyTree;
