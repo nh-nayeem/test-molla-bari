@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactFlow, { Controls, Background, MarkerType} from 'reactflow';
+import ReactFlow, { Controls, Background, MarkerType, Position} from 'reactflow';
 import 'reactflow/dist/style.css';
 // import './custom-style.css';
 import persons from './persons.json';
@@ -7,8 +7,13 @@ import persons from './persons.json';
 const nodes = persons.map((item) => ({
   id: item.id,
   position: item.position,
-  data: item.data
+  data: item.data,
+  style: item.style,
+  // style: {borderRadius: '50%'},
+  sourcePosition: item.sourceposition,
+  targetPosition: item.targetposition,
 }));
+
 const edges = persons.map((item) => ({
   id: item.data["father id"]+"-"+item.id,
   source: item.data["father id"],
@@ -16,14 +21,14 @@ const edges = persons.map((item) => ({
   type: "step",
   markerEnd: {
     type: MarkerType.ArrowClosed,
-    width: 20, height: 20
+    width: 20, height: 20,
   },
 }));
 
 function FamilyTree() {
-    
     return (
       <div style={{ height: '100%' }}>
+        
       <ReactFlow nodes={nodes} edges={edges}>
         <Background />
         <Controls />

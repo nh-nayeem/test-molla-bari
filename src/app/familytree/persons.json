@@ -40,6 +40,19 @@
         "x": 350, "y": 200 
       },
     "data": { "label": "রঞ্জন আলী মোল্লা", "father id": "2" }
+  },
+  {
+    "id": "6.1",
+    "position": {
+        "x": 414, "y": 300 
+      },
+    "data": { "label": "", "father id": "6" },
+    "style": {
+      "width": 0,
+      "height": 0,
+      "borderRadius": 50,
+      "background": "transparent"
+    }
   }, 
   {
     "id": "7",
@@ -79,7 +92,7 @@
   {
     "id": "12",
     "position": {
-        "x": -50, "y": 500 
+        "x": 0, "y": 500 
       },
   "data": { "label": "ইউনুস মুন্সি", "father id": "4" }
   }, 
@@ -100,22 +113,36 @@
   {
     "id": "15",
     "position": {
-        "x": 520, "y": 300 
+        "x": 450, "y": 300 
       },
     "data": { "label": "ইউসুফ আলী মোল্লা", "father id": "5" }
   },
   {
     "id": "16",
     "position": {
-        "x": 690, "y": 300 
+        "x": 610, "y": 300 
     },
     "data": { "label": "আয়ুব আলী মোল্লা", "father id": "5" }
   },
   {
     "id": "17",
     "position": {
-        "x": 200, "y": 400 
+        "x": 250, "y": 400 
       },
-    "data": { "label": "চিঠাগাজী মোল্লা", "father id": "6" }
-  }  
+    "data": { "label": "চিঠাগাজী মোল্লা", "father id": "6.1" }
+  },
+  {
+    "id": "18",
+    "position": {
+        "x": 420, "y": 400 
+      },
+    "data": { "label": "এবাদ আলী মোল্লা", "father id": "6.1" }
+  },
+  {
+    "id": "19",
+    "position": {
+        "x": 600, "y": 400 
+      },  
+    "data": { "label": "ছায়দ উল্ল্যাহ মোল্লা", "father id": "6.1" }
+  }
 ]
