@@ -40,19 +40,6 @@
         "x": 350, "y": 200 
       },
     "data": { "label": "রঞ্জন আলী মোল্লা", "father id": "2" }
-  },
-  {
-    "id": "6.1",
-    "position": {
-        "x": 414, "y": 300 
-      },
-    "data": { "label": "", "father id": "6" },
-    "style": {
-      "width": 0,
-      "height": 0,
-      "borderRadius": 50,
-      "background": "transparent"
-    }
   }, 
   {
     "id": "7",
@@ -129,20 +116,20 @@
     "position": {
         "x": 250, "y": 400 
       },
-    "data": { "label": "চিঠাগাজী মোল্লা", "father id": "6.1" }
+    "data": { "label": "চিঠাগাজী মোল্লা", "father id": "6" }
   },
   {
     "id": "18",
     "position": {
         "x": 420, "y": 400 
       },
-    "data": { "label": "এবাদ আলী মোল্লা", "father id": "6.1" }
+    "data": { "label": "এবাদ আলী মোল্লা", "father id": "6" }
   },
   {
     "id": "19",
     "position": {
         "x": 600, "y": 400 
       },  
-    "data": { "label": "ছায়দ উল্ল্যাহ মোল্লা", "father id": "6.1" }
+    "data": { "label": "ছায়দ উল্ল্যাহ মোল্লা", "father id": "6" }
   }
 ]
