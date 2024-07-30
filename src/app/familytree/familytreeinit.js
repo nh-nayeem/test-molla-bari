@@ -27,11 +27,12 @@ const edges = persons.map((item) => ({
 const edgeTypes = {
 	smart: SmartStepEdge
 }
+const proOptions = { hideAttribution: true };
 function FamilyTree() {
     return (
       <div style={{ height: '100%' }}>
         
-      <ReactFlow nodes={nodes} edges={edges} edgeTypes={edgeTypes}>
+      <ReactFlow nodes={nodes} edges={edges} edgeTypes={edgeTypes} proOptions={proOptions}>
         <Background />
         <Controls />
       </ReactFlow>
