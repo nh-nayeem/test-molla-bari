@@ -17,7 +17,7 @@ const nodes = persons.map((item) => ({
 const edges = persons.map((item) => ({
   id: item.data["father id"]+"-"+item.id,
   source: item.data["father id"],
-  target: item.id,
+  target: (item.data["father id"] == item.id)? null:item.id,
   type: "smart",
   markerEnd: {
     type: MarkerType.ArrowClosed,
